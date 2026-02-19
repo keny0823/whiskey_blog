@@ -141,6 +141,8 @@ TEMPLATE = """
                 font-size: 0.8em;
             }}
         }}
+
+    </style>
 </head>
 <body>
     <header>
