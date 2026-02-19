@@ -18,11 +18,11 @@
 *   **価格帯:** 8,000円〜9,000円（※価格高騰中ですが、予算が許せば最強です）
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B01LXU9W1I?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B01LXU9W1I.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="マッカラン 12年 ダブルカスク">
+    <a href="https://www.amazon.co.jp/dp/B01LW0GC0R?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B01LW0GC0R.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="マッカラン 12年 ダブルカスク">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B01LXU9W1I?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでマッカラン12年をチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B01LW0GC0R?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでマッカラン12年をチェック</a>
 </div>
 
 ---
@@ -37,11 +37,11 @@
 *   **価格帯:** 3,000円〜4,000円
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B00867S310?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B00867S310.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="モンキーショルダー">
+    <a href="https://www.amazon.co.jp/dp/B0F4QNQ5S7?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B0F4QNQ5S7.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="モンキーショルダー">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B00867S310?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでモンキーショルダーをチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B0F4QNQ5S7?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでモンキーショルダーをチェック</a>
 </div>
 
 ---

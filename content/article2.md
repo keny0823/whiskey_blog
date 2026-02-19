@@ -16,11 +16,11 @@ Amazonで3,000円〜5,000円で買えて、いつもの晩酌を格上げして�
 *   **価格帯:** 4,000円〜5,000円
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B001TZ99E0?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B001TZ99E0.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="ボウモア 12年">
+    <a href="https://www.amazon.co.jp/dp/B075HQ6QJD?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B075HQ6QJD.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="ボウモア 12年">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B001TZ99E0?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでボウモア12年をチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B075HQ6QJD?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでボウモア12年をチェック</a>
 </div>
 
 ---
@@ -34,11 +34,11 @@ Amazonで3,000円〜5,000円で買えて、いつもの晩酌を格上げして�
 *   **価格帯:** 4,000円〜5,000円
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B0029Z9N62?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B0029Z9N62.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="タリスカー 10年">
+    <a href="https://www.amazon.co.jp/dp/B002EPBL1Q?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B002EPBL1Q.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="タリスカー 10年">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B0029Z9N62?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでタリスカー10年をチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B002EPBL1Q?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでタリスカー10年をチェック</a>
 </div>
 
 ---
@@ -52,11 +52,11 @@ Amazonで3,000円〜5,000円で買えて、いつもの晩酌を格上げして�
 *   **価格帯:** 3,500円〜4,500円
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B0CBV6C6G7?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B0CBV6C6G7.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="グレンフィディック 12年">
+    <a href="https://www.amazon.co.jp/dp/B085KWKPB4?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B085KWKPB4.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="グレンフィディック 12年">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B0CBV6C6G7?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでグレンフィディック12年をチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B085KWKPB4?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでグレンフィディック12年をチェック</a>
 </div>
 
 ---

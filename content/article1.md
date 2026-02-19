@@ -54,11 +54,11 @@
 *   **価格帯:** 4,000円前後
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B0157GP59W?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B0157GP59W.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="サントリー 知多">
+    <a href="https://www.amazon.co.jp/dp/B011WPDV70?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B011WPDV70.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="サントリー 知多">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B0157GP59W?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでサントリー知多をチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B011WPDV70?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでサントリー知多をチェック</a>
 </div>
 
 ---
