@@ -41,7 +41,7 @@
 *   **おすすめの飲み方:** ハイボール（知多ハイボール）。
 *   **価格帯:** 4,000円前後
 
-[👉 Amazonでサントリー知多の価格を見る](https://amzn.to/4tLeXbj)
+[👉 Amazonでサントリー知多の価格を見る](https://www.amazon.co.jp/%E7%9F%A5%E5%A4%9A-%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC-%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC-700ml/dp/B011WPDV70?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=320F195FAMP0Y&dib=eyJ2IjoiMSJ9.qEQbmxZNZNbmh8JdZkZaz4fneDDVPbDRYy4WjRZeTr-LoyyXKTdNebbgaDh-I412KSgk1M36t7PuCwDB5lHgbRe_syVDsUnIYqCeFBaC8SIUBfP0Cmj68Ab88FIsTynCq2MCrY_sFYSlhq6_qrnyel3Ecc0JdVA-i29bctEiC74M3jHmtnwqKs0Dsu6JqwEgNKo2AU2CjHoeoIOHdAtvhg1m5M_hsDyiVRsZaMybk22UPBqIiFxtAnfwbdmbz_4oDjSf6oApa4aurOeYVS1ASAa7ZeTSZ3p0-zDwW1CyB28.Q3dL5vplDSOZ2HBD8U3pDVT4jDa-qiPZCAqY_7yam6s&dib_tag=se&keywords=%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC+%E7%9F%A5%E5%A4%9A%EF%BC%88%E3%82%B8%E3%83%A3%E3%83%91%E3%83%8B%E3%83%BC%E3%82%BA%EF%BC%89&qid=1771517529&sprefix=%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC+%E7%9F%A5%E5%A4%9A+%E3%82%B8%E3%83%A3%E3%83%91%E3%83%8B%E3%83%BC%E3%82%BA+%2Caps%2C209&sr=8-1&linkCode=ll2&tag=keny0823-22&linkId=733ff96cbf7060888ce3ac67800d12d3&ref_=as_li_ss_tl)
 
 ---
 
