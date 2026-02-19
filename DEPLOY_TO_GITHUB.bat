@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 > nul
 echo ========================================================
-echo  【重要】GitHubへのアップロード（更新）処理
+echo  【重要】GitHubへの強制アップロード
 echo ========================================================
 echo.
 
@@ -25,7 +25,7 @@ git add .
 
 :: Commit
 echo [INFO] 変更を記録（コミット）しています...
-git commit -m "Update content and affiliate links"
+git commit -m "Force update site content"
 
 :: Add Remote (if not exists)
 git remote get-url origin > nul 2>&1
@@ -43,27 +43,28 @@ echo  この後、ブラウザで「GitHubのログイン画面」が表示さ�
 echo  その場合は、あなたのGitHubアカウントでログインし、
 echo  「Authorize（許可）」ボタンを押してください。
 echo.
-echo  ※すでにログイン済みの場合は、そのまま完了します。
+echo  ※エラーが出る場合は、この画面を閉じて再度実行してみてください。
 echo.
 pause
 
-:: Push
+:: Force Push to overwrite remote changes
 echo [INFO] アップロード中...
-git push -u origin main
+git push -f -u origin main
 
 if %errorlevel% neq 0 (
     echo.
     echo [ERROR] アップロードに失敗しました！
-    echo 以下の原因が考えられます：
-    echo 1. インターネットに繋がっていない
-    echo 2. GitHubへのログインに失敗した
-    echo 3. リポジトリURL（keny0823/whiskey_blog）が存在しない、または権限がない
+    echo GitHubにログインできなかったか、通信エラーの可能性があります。
     echo.
 ) else (
     echo.
     echo [SUCCESS] アップロード完了です！🎉
-    echo 数分後にWebサイト（https://keny0823.github.io/whiskey_blog/）が更新されます。
+    echo.
+    echo  https://keny0823.github.io/whiskey_blog/
+    echo  ↑
+    echo  このURLにアクセスして、更新されたか確認してください。
+    echo  （反映まで数分かかることがあります）
+    echo.
 )
 
-echo.
 pause
