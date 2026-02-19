@@ -18,11 +18,11 @@
 *   **価格帯:** 4,000円〜5,000円
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B0CKRDBL7P?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B0CKRDBL7P.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="グレンモーレンジィ オリジナル">
+    <a href="https://www.amazon.co.jp/dp/B0DHKQBHBD?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B0DHKQBHBD.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="グレンモーレンジィ オリジナル">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B0CKRDBL7P?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでグレンモーレンジィをチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B0DHKQBHBD?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでグレンモーレンジィをチェック</a>
 </div>
 
 ---
@@ -36,11 +36,11 @@
 *   **価格帯:** 2,500円〜3,000円
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B001T9NFX6?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B001T9NFX6.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="メーカーズマーク">
+    <a href="https://www.amazon.co.jp/dp/B01MZ2B5GO?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B01MZ2B5GO.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="メーカーズマーク">
     </a>
     <br>
-    <a href="https://www.amazon.co.jp/dp/B001T9NFX6?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでメーカーズマークをチェック</a>
+    <a href="https://www.amazon.co.jp/dp/B01MZ2B5GO?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでメーカーズマークをチェック</a>
 </div>
 
 ---
