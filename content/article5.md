@@ -8,8 +8,7 @@
 素材の味を邪魔せず、むしろ引き立てる。その驚きのペアリング体験をご紹介します。
 
 <div style="text-align: center; margin: 20px 0;">
-    <!-- <img src="assets/images/chita_izakaya_pairing.png" alt="知多と和食のペアリング" style="max-width: 100%; height: auto; border-radius: 8px;"> -->
-    <p>（※画像は準備中です）</p>
+    <img src="images/chita_washoku.png" alt="知多と和食のペアリング" style="max-width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 ---

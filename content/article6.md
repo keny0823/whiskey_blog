@@ -8,8 +8,7 @@
 スコットランドの作り手たちが、「ウイスキーはもっと自由でいいんだよ！」と叫んでいるような1本です。
 
 <div style="text-align: center; margin: 20px 0;">
-    <!-- <img src="assets/images/monkey_shoulder_cola.png" alt="モンキーショルダーのコーラ割り" style="max-width: 100%; height: auto; border-radius: 8px;"> -->
-    <p>（※画像は準備中です）</p>
+    <img src="images/monkey_shoulder_cola.png" alt="モンキーショルダーのコーラ割り" style="max-width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 ---

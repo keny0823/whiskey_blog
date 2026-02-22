@@ -197,9 +197,19 @@ def md_to_html(md_text):
     
     return html
 
+import shutil
+
 def build_site():
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
+
+    # Copy images directory to docs
+    images_src = r"c:\Users\since\新しいフォルダー\trend_arbitrage_project\whiskey_blog\images"
+    images_dst = os.path.join(OUTPUT_DIR, "images")
+    if os.path.exists(images_src):
+        if os.path.exists(images_dst):
+            shutil.rmtree(images_dst)
+        shutil.copytree(images_src, images_dst)
 
     articles = []
 

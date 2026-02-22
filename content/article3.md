@@ -33,6 +33,12 @@
 味はバニラやシナモンのような甘いスパイス感。
 「センスがいいね」と言われたいならコレです。
 
+<div style="text-align: center; margin: 20px 0;">
+    <img src="images/monkey_cola.png" alt="モンキーショルダーのコーラ割り" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <p><i>（※画像生成中：コーラとライムで爽快に）</i></p>
+</div>
+
+
 *   **向いている相手:** 同僚、友人、おしゃれな男性
 *   **価格帯:** 3,000円〜4,000円
 

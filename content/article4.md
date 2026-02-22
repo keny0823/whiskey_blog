@@ -9,8 +9,7 @@
 この記事では、居酒屋では絶対に飲めない、**家飲み専用の「究極のハイボール」**の作り方を伝授します。
 
 <div style="text-align: center; margin: 20px 0;">
-    <!-- <img src="assets/images/talisker_pepper_highball.png" alt="タリスカー スパイシーハイボール" style="max-width: 100%; height: auto; border-radius: 8px;"> -->
-    <p>（※画像は準備中です）</p>
+    <img src="images/talisker_pepper.png" alt="タリスカー スパイシーハイボール" style="max-width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 ---
