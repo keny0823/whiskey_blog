@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハイボールが10倍美味しくなる「割って映える」銘柄3選 | Gentleman's Whiskey Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* ── Reset ── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        /* ── Design Tokens ── */
+        :root {
+            --gold:        #c9a84c;
+            --gold-light:  #e8cc7e;
+            --gold-dim:    #8b6014;
+            --bg-root:     #070604;
+            --bg-deep:     #0f0d09;
+            --bg-card:     #1a1712;
+            --bg-inset:    #221f19;
+            --text-bright: #f0e8d8;
+            --text-main:   #d8ccb8;
+            --text-sub:    #a09070;
+            --text-muted:  #6a5e4a;
+            --border:      #2c2820;
+            --border-gold: #3a3020;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Noto Serif JP', Georgia, 'Times New Roman', serif;
+            background-color: var(--bg-root);
+            color: var(--text-main);
+            line-height: 1.95;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        /* ── Header ── */
+        header {
+            background: linear-gradient(180deg, #0b0906 0%, #0f0d09 100%);
+            border-bottom: 1px solid var(--border-gold);
+            padding: 32px 20px 28px;
+            text-align: center;
+        }
+        .header-rule {
+            display: flex; align-items: center; justify-content: center;
+            gap: 14px; margin-bottom: 18px;
+        }
+        .header-rule::before, .header-rule::after {
+            content: ''; display: block; width: 48px; height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold-dim));
+        }
+        .header-rule::after { background: linear-gradient(90deg, var(--gold-dim), transparent); }
+        .header-diamond { color: var(--gold); font-size: 8px; letter-spacing: 6px; }
+        .site-title {
+            display: block; font-family: 'Playfair Display', Georgia, serif;
+            color: var(--gold); font-size: clamp(18px, 3.8vw, 26px);
+            letter-spacing: 0.22em; font-weight: 400; text-decoration: none;
+            transition: color 0.2s;
+        }
+        .site-title:hover { color: var(--gold-light); }
+        .site-tagline {
+            font-size: 10px; color: var(--text-muted); letter-spacing: 0.28em;
+            text-transform: uppercase; margin-top: 8px;
+            font-family: 'Playfair Display', serif; font-style: italic;
+        }
+        .header-rule-bottom {
+            display: flex; align-items: center; justify-content: center;
+            gap: 14px; margin-top: 18px;
+        }
+        .header-rule-bottom::before, .header-rule-bottom::after {
+            content: ''; display: block; width: 48px; height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border-gold));
+        }
+        .header-rule-bottom::after { background: linear-gradient(90deg, var(--border-gold), transparent); }
+        .header-rule-bottom span { color: var(--text-muted); font-size: 7px; letter-spacing: 5px; }
+
+        /* ── Nav ── */
+        nav { background: var(--bg-deep); border-bottom: 1px solid var(--border); }
+        nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav a {
+            display: block; color: var(--text-sub); text-decoration: none;
+            font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+            padding: 14px 22px; border-bottom: 2px solid transparent;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        nav a:hover { color: var(--gold); border-bottom-color: var(--gold-dim); }
+
+        /* ── Main Layout ── */
+        .container { max-width: 760px; margin: 0 auto; padding: 52px 20px 88px; }
+
+        /* ── Article Header ── */
+        .article-label { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+        .badge {
+            font-family: 'Playfair Display', serif; font-style: italic;
+            font-size: 10px; letter-spacing: 0.18em; color: var(--gold);
+            border: 1px solid var(--border-gold); padding: 5px 14px;
+        }
+        .article-category { font-size: 11px; letter-spacing: 0.15em; color: var(--text-muted); text-transform: uppercase; }
+        .article-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(22px, 4.2vw, 32px); font-weight: 700;
+            line-height: 1.5; color: var(--text-bright); margin-bottom: 8px;
+        }
+        .article-title .accent { color: var(--gold); }
+
+        /* ── Lead ── */
+        .lead {
+            font-size: 15px; color: var(--text-sub);
+            border-left: 2px solid var(--gold-dim);
+            padding: 14px 18px; margin: 28px 0;
+            background: var(--bg-inset); line-height: 1.9;
+        }
+        .lead p + p { margin-top: 10px; }
+
+        /* ── Ornamental Divider ── */
+        .ornament {
+            display: flex; align-items: center; gap: 14px;
+            margin: 44px 0; color: var(--text-muted);
+        }
+        .ornament::before, .ornament::after {
+            content: ''; flex: 1; height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border-gold), transparent);
+        }
+        .ornament-inner { font-size: 10px; letter-spacing: 8px; padding: 0 4px; }
+
+        /* ── Whiskey Card ── */
+        .whiskey-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-top: 2px solid var(--gold-dim); padding: 36px 38px 32px; position: relative;
+        }
+        .card-number {
+            position: absolute; top: -1px; right: 28px;
+            font-family: 'Playfair Display', serif; font-style: italic;
+            font-size: 11px; letter-spacing: 0.12em;
+            color: var(--bg-card); background: var(--gold-dim); padding: 4px 14px 5px;
+        }
+
+        /* ── Section Heading ── */
+        .section-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(17px, 3vw, 22px); font-weight: 600;
+            color: var(--text-bright); padding-bottom: 14px;
+            margin-bottom: 20px; position: relative;
+        }
+        .section-heading::after {
+            content: ''; position: absolute; bottom: 0; left: 0;
+            width: 100%; height: 1px;
+            background: linear-gradient(90deg, var(--gold-dim) 0%, var(--gold-dim) 50px, var(--border) 50px);
+        }
+
+        /* ── Body Text ── */
+        .whiskey-card p, .summary-box p { margin-bottom: 16px; color: var(--text-main); }
+        .whiskey-card p:last-of-type { margin-bottom: 0; }
+        strong { color: var(--gold-light); font-weight: 600; }
+
+        /* ── Detail List ── */
+        .detail-list {
+            list-style: none; margin: 22px 0 26px;
+            background: var(--bg-inset); padding: 0;
+            border-left: 3px solid var(--gold-dim);
+        }
+        .detail-list li {
+            font-size: 14px; color: var(--text-sub);
+            padding: 11px 20px; display: flex; gap: 10px;
+        }
+        .detail-list li + li { border-top: 1px solid var(--border); }
+        .detail-list li::before { content: '—'; color: var(--gold-dim); flex-shrink: 0; }
+
+        /* ── Amazon Affiliate Button ── */
+        .affiliate-box { margin-top: 28px; text-align: center; }
+        .btn-amazon {
+            display: inline-flex; align-items: center; justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #c9a84c 0%, #a87e2e 100%);
+            color: #080600; text-decoration: none;
+            font-family: 'Noto Serif JP', serif; font-weight: 600;
+            font-size: 13px; letter-spacing: 0.1em; padding: 15px 36px;
+            border-radius: 1px;
+            transition: filter 0.2s, transform 0.15s, box-shadow 0.2s;
+            box-shadow: 0 2px 12px rgba(201,168,76,0.18), inset 0 1px 0 rgba(255,255,255,0.18);
+            min-width: 260px;
+        }
+        .btn-amazon:hover {
+            filter: brightness(1.1); transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(201,168,76,0.28), inset 0 1px 0 rgba(255,255,255,0.18);
+        }
+        .btn-amazon .btn-icon { font-size: 15px; opacity: 0.9; }
+        .btn-amazon .btn-sub {
+            font-size: 10px; letter-spacing: 0.06em;
+            display: block; opacity: 0.75; font-weight: 400;
+        }
+        .btn-amazon-inner { text-align: left; }
+
+        /* ── Summary Box ── */
+        .summary-box {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-top: 2px solid var(--gold); padding: 38px 38px 34px; margin-top: 8px;
+        }
+        .cta-block {
+            margin-top: 30px; padding-top: 26px;
+            border-top: 1px solid var(--border); text-align: center;
+        }
+        .cta-lead { font-size: 14px; color: var(--text-sub); margin-bottom: 18px; line-height: 1.8; }
+        .btn-cta {
+            display: inline-block; background: transparent; color: var(--gold);
+            text-decoration: none; font-family: 'Playfair Display', serif;
+            font-size: 14px; letter-spacing: 0.1em; padding: 16px 36px;
+            border: 1px solid var(--gold-dim);
+            transition: background 0.25s, color 0.25s, border-color 0.25s; min-width: 300px;
+        }
+        .btn-cta:hover { background: var(--gold-dim); color: var(--text-bright); border-color: var(--gold-dim); }
+
+        /* ── Footer ── */
+        footer { text-align: center; padding: 44px 20px; border-top: 1px solid var(--border); }
+        .footer-rule {
+            display: flex; align-items: center; justify-content: center;
+            gap: 12px; margin-bottom: 20px;
+        }
+        .footer-rule::before, .footer-rule::after {
+            content: ''; display: block; width: 36px; height: 1px; background: var(--border-gold);
+        }
+        .footer-rule span { color: var(--text-muted); font-size: 8px; letter-spacing: 4px; }
+        footer p { font-size: 11px; color: var(--text-muted); letter-spacing: 0.12em; }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            .container { padding: 36px 16px 64px; }
+            .whiskey-card { padding: 28px 20px 24px; }
+            .summary-box { padding: 28px 20px 24px; }
+            .btn-amazon { min-width: 0; width: 100%; }
+            .btn-cta { min-width: 0; width: 100%; }
+            .card-number { right: 16px; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-rule">
+            <span class="header-diamond">&#x25C6; &#x25C6; &#x25C6;</span>
+        </div>
+        <a href="index.html" class="site-title">Gentleman&#x2019;s Whiskey Guide</a>
+        <p class="site-tagline">For the Discerning Palate</p>
+        <div class="header-rule-bottom">
+            <span>&#x25C6; &#x25C6; &#x25C6;</span>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">&#x96FB;&#x5B50;&#x66F8;&#x7C4D;&#xFF08;&#x5546;&#x54C1;&#xFF09;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <article>
+
+            <div class="article-label">
+                <span class="badge">Cocktail Guide</span>
+                <span class="article-category">飲み方ガイド</span>
+            </div>
+
+            <h1 class="article-title">
+                ハイボールが10倍美味しくなる<br><span class="accent">「割って映える」銘柄3選</span>
+            </h1>
+
+            <div class="lead">
+                <p>居酒屋でも定番になったハイボール。でも、どのウイスキーで作るかで、その美味しさは天と地ほど変わります。</p>
+                <p>「なんとなくハイボールを飲んでいる」という人に、ぜひ試してほしい銘柄を3つ紹介します。</p>
+            </div>
+
+            <p>今回は「ハイボールに使うと特に輝く」ウイスキーを厳選しました。市販の安いウイスキーで作るのとは、比べ物にならない仕上がりになります。</p>
+
+            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+
+            <div class="whiskey-card">
+                <span class="card-number">No. 1</span>
+                <h2 class="section-heading">サントリー 角瓶（ジャパニーズ）</h2>
+                <p>居酒屋ハイボールの代名詞。<strong>甘みと苦味のバランスが絶妙</strong>で、炭酸と合わせたときに最も力を発揮するウイスキーと言っても過言ではありません。グラスに氷をたっぷり入れてよく冷やし、炭酸を静かに注ぐ「角ハイボール」は、プロの技法です。</p>
+                <ul class="detail-list">
+                    <li><span><strong>おすすめの飲み方:</strong>&ensp;角ハイボール（ウイスキー1：炭酸4の比率）</span></li>
+                    <li><span><strong>価格帯:</strong>&ensp;1,500円〜1,800円</span></li>
+                    <li><span><strong>ポイント:</strong>&ensp;強炭酸を使うとさらに美味しい</span></li>
+                </ul>
+                <div class="affiliate-box">
+                    <a href="https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%20%E8%A7%92%E7%93%B6%20%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
+                        <span class="btn-icon">&#x1F6D2;</span>
+                        <span class="btn-amazon-inner">
+                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
+                            <span class="btn-sub">サントリー 角瓶 ウイスキー</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+
+            <div class="whiskey-card">
+                <span class="card-number">No. 2</span>
+                <h2 class="section-heading">ジムビーム ホワイト（バーボン）</h2>
+                <p>世界ナンバーワン売上のバーボン。<strong>バニラとオーク樽の香り</strong>が炭酸と合わさると、甘くスムーズなハイボールになります。コスパが非常に高く、「毎日飲む家ハイボール用ウイスキー」として愛用者が多い一本です。</p>
+                <ul class="detail-list">
+                    <li><span><strong>おすすめの飲み方:</strong>&ensp;ハイボール（レモン果汁を少し絞っても◎）</span></li>
+                    <li><span><strong>価格帯:</strong>&ensp;1,200円〜1,600円</span></li>
+                    <li><span><strong>ポイント:</strong>&ensp;冷凍庫で冷やしてから使うのも人気</span></li>
+                </ul>
+                <div class="affiliate-box">
+                    <a href="https://www.amazon.co.jp/s?k=%E3%82%B8%E3%83%A0%E3%83%93%E3%83%BC%E3%83%A0%20%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%20%E3%83%90%E3%83%BC%E3%83%9C%E3%83%B3&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
+                        <span class="btn-icon">&#x1F6D2;</span>
+                        <span class="btn-amazon-inner">
+                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
+                            <span class="btn-sub">ジムビーム ホワイト バーボン</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+
+            <div class="whiskey-card">
+                <span class="card-number">No. 3</span>
+                <h2 class="section-heading">フォアローゼズ（バーボン）</h2>
+                <p>バラのラベルが美しい、花のような香りのバーボン。<strong>フローラルでフルーティな甘み</strong>が特徴で、ハイボールにすると女性にも人気の爽やかな味わいになります。「バーボンって甘いんだ」と再発見できる一本です。</p>
+                <ul class="detail-list">
+                    <li><span><strong>おすすめの飲み方:</strong>&ensp;ハイボール、またはコークハイ</span></li>
+                    <li><span><strong>価格帯:</strong>&ensp;1,800円〜2,500円</span></li>
+                    <li><span><strong>ポイント:</strong>&ensp;グラスのふちにオレンジピールを添えて</span></li>
+                </ul>
+                <div class="affiliate-box">
+                    <a href="https://www.amazon.co.jp/s?k=%E3%83%95%E3%82%A9%E3%82%A2%E3%83%AD%E3%83%BC%E3%82%BC%E3%82%BA%20%E3%83%90%E3%83%BC%E3%83%9C%E3%83%B3&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
+                        <span class="btn-icon">&#x1F6D2;</span>
+                        <span class="btn-amazon-inner">
+                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
+                            <span class="btn-sub">フォアローゼズ バーボン</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+
+            <!-- &#x307E;&#x3068;&#x3081; -->
+            <div class="summary-box">
+                <h2 class="section-heading">まとめ：ウイスキーを変えるだけで世界が変わる</h2>
+                <p>ハイボールは「割るだけ」ではありません。使うウイスキーで表情が全く変わります。今回の3本を試して、お気に入りの「マイハイボール」を見つけてみてください。</p>
+                <div class="cta-block">
+                    <p class="cta-lead"><strong>&#x3055;&#x3089;&#x306B;&#x8A73;&#x3057;&#x3044;&#x300C;&#x5927;&#x4EBA;&#x306E;&#x98F2;&#x307F;&#x65B9;&#x300D;&#x3084;&#x300C;Bar&#x3067;&#x306E;&#x632F;&#x308B;&#x821E;&#x3044;&#x300D;&#x3092;&#x77E5;&#x308A;&#x305F;&#x3044;&#x65B9;&#x306F;&#x3001;<br>&#x3053;&#x3061;&#x3089;&#x306E;&#x30AC;&#x30A4;&#x30C9;&#x3082;&#x304A;&#x3059;&#x3059;&#x3081;&#x3067;&#x3059;&#x3002;</strong></p>
+                    <a href="./product.html" class="btn-cta">&#x5927;&#x4EBA;&#x306E;&#x30A6;&#x30A4;&#x30B9;&#x30AD;&#x30FC;&#x5165;&#x9580;&#x66F8;&#xFF08;&#x516C;&#x5F0F;&#x30AC;&#x30A4;&#x30C9;&#xFF09;&#x3092;&#x898B;&#x308B; &nbsp;&#x203A;</a>
+                </div>
+            </div>
+
+        </article>
+    </div>
+
+    <footer>
+        <div class="footer-rule"><span>&#x25C6;</span></div>
+        <p>&copy; 2026 Gentleman&#x2019;s Whiskey Guide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
