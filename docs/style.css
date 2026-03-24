@@ -90,29 +90,6 @@ img {
     border-radius: 5px;
     height: auto;
 }
-.note-banner {
-    background: linear-gradient(135deg, #d4af37, #b8860b);
-    color: #000 !important;
-    padding: 25px;
-    border-radius: 10px;
-    margin: 30px 0;
-    text-align: center;
-    text-decoration: none !important;
-    display: block;
-    transition: transform 0.2s;
-}
-.note-banner:hover {
-    transform: scale(1.02);
-}
-.note-banner h3 {
-    margin: 0;
-    font-size: 20px;
-}
-.note-banner p {
-    margin: 10px 0 0;
-    font-size: 14px;
-    font-weight: bold;
-}
 
 /* Mobile Optimization */
 @media (max-width: 600px) {

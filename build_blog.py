@@ -102,29 +102,6 @@ img {
     border-radius: 5px;
     height: auto;
 }
-.note-banner {
-    background: linear-gradient(135deg, #d4af37, #b8860b);
-    color: #000 !important;
-    padding: 25px;
-    border-radius: 10px;
-    margin: 30px 0;
-    text-align: center;
-    text-decoration: none !important;
-    display: block;
-    transition: transform 0.2s;
-}
-.note-banner:hover {
-    transform: scale(1.02);
-}
-.note-banner h3 {
-    margin: 0;
-    font-size: 20px;
-}
-.note-banner p {
-    margin: 10px 0 0;
-    font-size: 14px;
-    font-weight: bold;
-}
 
 /* Mobile Optimization */
 @media (max-width: 600px) {
@@ -254,11 +231,6 @@ def build_site():
     <h1>ようこそ、ウイスキーの迷宮へ</h1>
     <p>Barでの振る舞い、おすすめの銘柄、失敗しないプレゼント選び。<br>30代から始める、大人の男性のためのウイスキー情報を発信します。</p>
     
-    <a href="https://note.com/your_note_link" class="note-banner">
-        <h3>【有料級】ウイスキー投資の鉄則</h3>
-        <p>後悔する前に知っておくべき「値上がりする銘柄」の見分け方とは？ ≫</p>
-    </a>
-
     <h2>新着記事</h2>
     <ul>
     """
