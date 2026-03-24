@@ -18,7 +18,13 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 *   **おすすめの飲み方:** ハイボール。スモーキーさが弾けて最高です。
 *   **価格帯:** 6,500円〜7,500円
 
-[👉 Amazonでアードベッグ10年をチェック](https://www.amazon.co.jp/dp/B002VZY7KW)
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://www.amazon.co.jp/dp/B002VZY7KW?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B002VZY7KW.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="アードベッグ 10年">
+    </a>
+    <br>
+    <a href="https://www.amazon.co.jp/dp/B002VZY7KW?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでアードベッグ10年をチェック</a>
+</div>
 
 ---
 
@@ -27,10 +33,16 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 「好きになるか、嫌いになるか（Love it or Hate it）」というあまりにも有名なキャッチコピーを持つ、アイラの象徴。
 強烈な薬品のような香り（ヨード香）が特徴で、まさに「正露丸」と言われる所以。しかし、一度ハマるとこの香りと甘みの共演が癖になります。
 
-*   **おすすめ of 飲み方:** ストレート、または少量の加水。
+*   **おすすめの飲み方:** ストレート、または少量の加水。
 *   **価格帯:** 6,000円〜7,000円
 
-[👉 Amazonでラフロイグ10年をチェック](https://www.amazon.co.jp/dp/B001HUA0P2)
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://www.amazon.co.jp/dp/B001HUA0P2?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B001HUA0P2.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="ラフロイグ 10年">
+    </a>
+    <br>
+    <a href="https://www.amazon.co.jp/dp/B001HUA0P2?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでラフロイグ10年をチェック</a>
+</div>
 
 ---
 
@@ -42,13 +54,15 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 *   **おすすめの飲み方:** ロック、またはハイボール。
 *   **価格帯:** 5,000円〜6,000円
 
-[👉 Amazonでボウモア12年をチェック](https://www.amazon.co.jp/dp/B000ZAVHNC)
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://www.amazon.co.jp/dp/B075HQ6QJD?tag=keny0823-22" target="_blank">
+        <img src="https://images-na.ssl-images-amazon.com/images/P/B075HQ6QJD.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="ボウモア 12年">
+    </a>
+    <br>
+    <a href="https://www.amazon.co.jp/dp/B075HQ6QJD?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでボウモア12年をチェック</a>
+</div>
 
 ---
-
-<div style="text-align: center; margin: 20px 0;">
-    <img src="images/islay_whisky.png" alt="アイラ・モルトのおすすめ銘柄" style="max-width: 100%; height: auto; border-radius: 8px;">
-</div>
 
 ## まとめ：勇気を出して、一歩踏み出そう
 

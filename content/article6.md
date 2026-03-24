@@ -52,5 +52,3 @@ Description: ウイスキーのコーラ割りは邪道？いいえ、モンキ�
     <br>
     <a href="https://www.amazon.co.jp/dp/B0F4QNQ5S7?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでモンキーショルダーをチェック</a>
 </div>
-
-[トップページに戻る](./index.html)

@@ -57,5 +57,3 @@ Description: 「ウイスキーは食後に飲むもの」という常識を覆�
     <br>
     <a href="https://www.amazon.co.jp/dp/B011WPDV70?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでサントリー知多をチェック</a>
 </div>
-
-[トップページに戻る](./index.html)
