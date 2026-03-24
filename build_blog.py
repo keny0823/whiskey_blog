@@ -159,18 +159,30 @@ article img {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 24px;
-    margin: 24px 0;
+    padding: 32px 24px;
+    margin: 32px auto;
+    max-width: 480px;
     text-align: center;
-    transition: border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 .product-card:hover {
     border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(201, 168, 76, 0.1);
+}
+.product-card a {
+    display: inline-block;
 }
 .product-card img {
     max-width: 200px;
-    margin-bottom: 16px;
-    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: block;
 }
 
 /* ── CTA Button ── */
@@ -345,6 +357,9 @@ def md_to_html(md_text):
     # Links
     html = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', html)
 
+    # Strip inline styles from img tags (let CSS handle layout)
+    html = re.sub(r'<img ([^>]*)style="[^"]*"', r'<img \1', html)
+
     # Wrap Amazon product blocks in product-card divs
     html = re.sub(
         r'<div style="text-align: center; margin: 20px 0;">(.*?)</div>',
@@ -358,6 +373,11 @@ def md_to_html(md_text):
         r'<a href="\1" target="_blank" rel="nofollow" class="btn">\2</a>',
         html
     )
+
+    # Remove stray <br> inside product-card
+    html = re.sub(r'(<div class="product-card">.*?)</div>',
+                  lambda m: m.group(1).replace('<br>', '') + '</div>',
+                  html, flags=re.DOTALL)
 
     # Paragraphs — wrap loose text lines
     lines = html.split('\n')
