@@ -148,7 +148,6 @@ TEMPLATE = """<!DOCTYPE html>
         <a href="article2.html">ハイボール</a>
         <a href="article3.html">プレゼント</a>
         <a href="article4.html">アイラ・モルト</a>
-        <a href="product.html">公式ガイド</a>
     </nav>
     
     <div class="container">
@@ -238,12 +237,6 @@ def build_site():
         index_body += f'<li><a href="{art["url"]}">{art["title"]}</a></li>'
     index_body += "</ul>"
     
-    index_body += """
-    <hr>
-    <h2>【電子書籍】30代からのウイスキー入門</h2>
-    <p>「Barで恥をかきたくない」あなたへ。一生使える知識を凝縮しました。</p>
-    <a href="product.html" class="btn">詳細を見る</a>
-    """
     
     final_index = TEMPLATE.format(title="HOME", description="大人の男性のためのウイスキーガイド。Barの嗜みから投資銘柄まで、本物の知識を届けます。", content=index_body)
     with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as f:
