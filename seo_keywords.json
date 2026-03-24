@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "keyword": "タリスカー10年 レビュー",
+    "slug": "talisker10_review",
+    "used": true,
+    "used_date": "2026-03-04",
+    "filename": "talisker10_review.html"
+  },
+  {
+    "id": 2,
+    "keyword": "バランタイン17年 評価",
+    "slug": "ballantine17_review",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 3,
+    "keyword": "ラガヴーリン16年 特徴",
+    "slug": "lagavulin16_feature",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 4,
+    "keyword": "アードベッグ10年 スモーキー",
+    "slug": "ardbeg10_smoky",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 5,
+    "keyword": "グレンフィディック12年 コスパ",
+    "slug": "glenfiddich12_cospa",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 6,
+    "keyword": "ボウモア12年 アイラ 初心者",
+    "slug": "bowmore12_beginner",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 7,
+    "keyword": "響 ジャパニーズハーモニー レビュー",
+    "slug": "hibiki_harmony_review",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 8,
+    "keyword": "余市 ノンビンテージ 特徴",
+    "slug": "yoichi_nv_feature",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 9,
+    "keyword": "バーボン 初心者 おすすめ5選",
+    "slug": "bourbon_beginner_5",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 10,
+    "keyword": "アイラウイスキー 入門 スモーキー",
+    "slug": "islay_beginner_smoky",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 11,
+    "keyword": "ウイスキー 父の日 ギフト おすすめ",
+    "slug": "fathers_day_whisky_gift",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 12,
+    "keyword": "オールドパー 12年 レビュー",
+    "slug": "oldparr12_review",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 13,
+    "keyword": "グレンドロナック12年 シェリー樽",
+    "slug": "glendronach12_sherry",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  },
+  {
+    "id": 14,
+    "keyword": "ハイランドパーク12年 評価",
+    "slug": "highland_park12_review",
+    "used": false,
+    "used_date": null,
+    "filename": null
+  }
+]
