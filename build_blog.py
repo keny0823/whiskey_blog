@@ -330,12 +330,45 @@ TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+AMAZON_TAG = "keny0823-22"
+
+def make_amazon_iframe(asin):
+    return (
+        f'<div class="product-card">'
+        f'<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1'
+        f'&bg1=1a1a1a&fc1=c9a84c&lc1=c9a84c&t={AMAZON_TAG}&language=ja_JP&o=9&p=8&l=as4'
+        f'&m=amazon&f=ifr&ref=as_ss_li_til&asins={asin}" '
+        f'style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" '
+        f'frameborder="0" loading="lazy"></iframe>'
+        f'</div>'
+    )
+
 def md_to_html(md_text):
     html = md_text
     # Extract description
     desc_match = re.search(r'^Description: (.*?)$', html, re.MULTILINE)
     description = desc_match.group(1) if desc_match else ""
     html = re.sub(r'^Description: .*?$', '', html, flags=re.MULTILINE)
+
+    # AMAZON: ASIN shortcode → iframe widget
+    html = re.sub(
+        r'^AMAZON:\s*(\w+)\s*$',
+        lambda m: make_amazon_iframe(m.group(1)),
+        html, flags=re.MULTILINE
+    )
+
+    # Also convert old-style <div style="text-align: center;"> Amazon blocks → iframe
+    # Extract ASIN from href and replace entire block
+    def replace_old_amazon_block(m):
+        asin_match = re.search(r'/dp/(\w+)', m.group(0))
+        if asin_match:
+            return make_amazon_iframe(asin_match.group(1))
+        return m.group(0)
+    html = re.sub(
+        r'<div style="text-align: center; margin: 20px 0;">.*?</div>',
+        replace_old_amazon_block,
+        html, flags=re.DOTALL
+    )
 
     # Horizontal rules
     html = re.sub(r'^---\s*$', '<hr>', html, flags=re.MULTILINE)
@@ -356,28 +389,6 @@ def md_to_html(md_text):
 
     # Links
     html = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', html)
-
-    # Strip inline styles from img tags (let CSS handle layout)
-    html = re.sub(r'<img ([^>]*)style="[^"]*"', r'<img \1', html)
-
-    # Wrap Amazon product blocks in product-card divs
-    html = re.sub(
-        r'<div style="text-align: center; margin: 20px 0;">(.*?)</div>',
-        r'<div class="product-card">\1</div>',
-        html, flags=re.DOTALL
-    )
-
-    # Amazon Link styling — btn class
-    html = re.sub(
-        r'<a href="(.*?)"[^>]*class="btn">(.*?)</a>',
-        r'<a href="\1" target="_blank" rel="nofollow" class="btn">\2</a>',
-        html
-    )
-
-    # Remove stray <br> inside product-card
-    html = re.sub(r'(<div class="product-card">.*?)</div>',
-                  lambda m: m.group(1).replace('<br>', '') + '</div>',
-                  html, flags=re.DOTALL)
 
     # Paragraphs — wrap loose text lines
     lines = html.split('\n')

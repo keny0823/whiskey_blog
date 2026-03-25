@@ -18,13 +18,7 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 *   **おすすめの飲み方:** ハイボール。スモーキーさが弾けて最高です。
 *   **価格帯:** 6,500円〜7,500円
 
-<div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B002VZY7KW?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B002VZY7KW.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="アードベッグ 10年">
-    </a>
-    <br>
-    <a href="https://www.amazon.co.jp/dp/B002VZY7KW?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでアードベッグ10年をチェック</a>
-</div>
+AMAZON: B002VZY7KW
 
 ---
 
@@ -36,13 +30,7 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 *   **おすすめの飲み方:** ストレート、または少量の加水。
 *   **価格帯:** 6,000円〜7,000円
 
-<div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B001HUA0P2?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B001HUA0P2.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="ラフロイグ 10年">
-    </a>
-    <br>
-    <a href="https://www.amazon.co.jp/dp/B001HUA0P2?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでラフロイグ10年をチェック</a>
-</div>
+AMAZON: B001HUA0P2
 
 ---
 
@@ -54,13 +42,7 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 *   **おすすめの飲み方:** ロック、またはハイボール。
 *   **価格帯:** 5,000円〜6,000円
 
-<div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.amazon.co.jp/dp/B075HQ6QJD?tag=keny0823-22" target="_blank">
-        <img src="https://images-na.ssl-images-amazon.com/images/P/B075HQ6QJD.09.LZZZZZZZ.jpg" style="max-width: 250px; width: 100%; border: none;" alt="ボウモア 12年">
-    </a>
-    <br>
-    <a href="https://www.amazon.co.jp/dp/B075HQ6QJD?tag=keny0823-22" target="_blank" class="btn">👉 Amazonでボウモア12年をチェック</a>
-</div>
+AMAZON: B075HQ6QJD
 
 ---
 
