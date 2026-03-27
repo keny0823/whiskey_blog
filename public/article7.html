@@ -1,390 +1,123 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZEJ7T9HXZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VZEJ7T9HXZ');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>「安くてうまい」は本当にある。1万円以下の神コスパウイスキー4選 | Gentleman's Whiskey Guide</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        /* ── Reset ── */
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-        /* ── Design Tokens ── */
-        :root {
-            --gold:        #c9a84c;
-            --gold-light:  #e8cc7e;
-            --gold-dim:    #8b6014;
-            --bg-root:     #070604;
-            --bg-deep:     #0f0d09;
-            --bg-card:     #1a1712;
-            --bg-inset:    #221f19;
-            --text-bright: #f0e8d8;
-            --text-main:   #d8ccb8;
-            --text-sub:    #a09070;
-            --text-muted:  #6a5e4a;
-            --border:      #2c2820;
-            --border-gold: #3a3020;
-        }
-
-        html { scroll-behavior: smooth; }
-
-        body {
-            font-family: 'Noto Serif JP', Georgia, 'Times New Roman', serif;
-            background-color: var(--bg-root);
-            color: var(--text-main);
-            line-height: 1.95;
-            font-size: 16px;
-            font-weight: 300;
-        }
-
-        /* ── Header ── */
-        header {
-            background: linear-gradient(180deg, #0b0906 0%, #0f0d09 100%);
-            border-bottom: 1px solid var(--border-gold);
-            padding: 32px 20px 28px;
-            text-align: center;
-        }
-        .header-rule {
-            display: flex; align-items: center; justify-content: center;
-            gap: 14px; margin-bottom: 18px;
-        }
-        .header-rule::before, .header-rule::after {
-            content: ''; display: block; width: 48px; height: 1px;
-            background: linear-gradient(90deg, transparent, var(--gold-dim));
-        }
-        .header-rule::after { background: linear-gradient(90deg, var(--gold-dim), transparent); }
-        .header-diamond { color: var(--gold); font-size: 8px; letter-spacing: 6px; }
-        .site-title {
-            display: block; font-family: 'Playfair Display', Georgia, serif;
-            color: var(--gold); font-size: clamp(18px, 3.8vw, 26px);
-            letter-spacing: 0.22em; font-weight: 400; text-decoration: none;
-            transition: color 0.2s;
-        }
-        .site-title:hover { color: var(--gold-light); }
-        .site-tagline {
-            font-size: 10px; color: var(--text-muted); letter-spacing: 0.28em;
-            text-transform: uppercase; margin-top: 8px;
-            font-family: 'Playfair Display', serif; font-style: italic;
-        }
-        .header-rule-bottom {
-            display: flex; align-items: center; justify-content: center;
-            gap: 14px; margin-top: 18px;
-        }
-        .header-rule-bottom::before, .header-rule-bottom::after {
-            content: ''; display: block; width: 48px; height: 1px;
-            background: linear-gradient(90deg, transparent, var(--border-gold));
-        }
-        .header-rule-bottom::after { background: linear-gradient(90deg, var(--border-gold), transparent); }
-        .header-rule-bottom span { color: var(--text-muted); font-size: 7px; letter-spacing: 5px; }
-
-        /* ── Nav ── */
-        nav { background: var(--bg-deep); border-bottom: 1px solid var(--border); }
-        nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; }
-        nav a {
-            display: block; color: var(--text-sub); text-decoration: none;
-            font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
-            padding: 14px 22px; border-bottom: 2px solid transparent;
-            transition: color 0.2s, border-color 0.2s;
-        }
-        nav a:hover { color: var(--gold); border-bottom-color: var(--gold-dim); }
-
-        /* ── Main Layout ── */
-        .container { max-width: 760px; margin: 0 auto; padding: 52px 20px 88px; }
-
-        /* ── Article Header ── */
-        .article-label { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
-        .badge {
-            font-family: 'Playfair Display', serif; font-style: italic;
-            font-size: 10px; letter-spacing: 0.18em; color: var(--gold);
-            border: 1px solid var(--border-gold); padding: 5px 14px;
-        }
-        .article-category { font-size: 11px; letter-spacing: 0.15em; color: var(--text-muted); text-transform: uppercase; }
-        .article-title {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(22px, 4.2vw, 32px); font-weight: 700;
-            line-height: 1.5; color: var(--text-bright); margin-bottom: 8px;
-        }
-        .article-title .accent { color: var(--gold); }
-
-        /* ── Lead ── */
-        .lead {
-            font-size: 15px; color: var(--text-sub);
-            border-left: 2px solid var(--gold-dim);
-            padding: 14px 18px; margin: 28px 0;
-            background: var(--bg-inset); line-height: 1.9;
-        }
-        .lead p + p { margin-top: 10px; }
-
-        /* ── Ornamental Divider ── */
-        .ornament {
-            display: flex; align-items: center; gap: 14px;
-            margin: 44px 0; color: var(--text-muted);
-        }
-        .ornament::before, .ornament::after {
-            content: ''; flex: 1; height: 1px;
-            background: linear-gradient(90deg, transparent, var(--border-gold), transparent);
-        }
-        .ornament-inner { font-size: 10px; letter-spacing: 8px; padding: 0 4px; }
-
-        /* ── Whiskey Card ── */
-        .whiskey-card {
-            background: var(--bg-card); border: 1px solid var(--border);
-            border-top: 2px solid var(--gold-dim); padding: 36px 38px 32px; position: relative;
-        }
-        .card-number {
-            position: absolute; top: -1px; right: 28px;
-            font-family: 'Playfair Display', serif; font-style: italic;
-            font-size: 11px; letter-spacing: 0.12em;
-            color: var(--bg-card); background: var(--gold-dim); padding: 4px 14px 5px;
-        }
-
-        /* ── Section Heading ── */
-        .section-heading {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(17px, 3vw, 22px); font-weight: 600;
-            color: var(--text-bright); padding-bottom: 14px;
-            margin-bottom: 20px; position: relative;
-        }
-        .section-heading::after {
-            content: ''; position: absolute; bottom: 0; left: 0;
-            width: 100%; height: 1px;
-            background: linear-gradient(90deg, var(--gold-dim) 0%, var(--gold-dim) 50px, var(--border) 50px);
-        }
-
-        /* ── Body Text ── */
-        .whiskey-card p, .summary-box p { margin-bottom: 16px; color: var(--text-main); }
-        .whiskey-card p:last-of-type { margin-bottom: 0; }
-        strong { color: var(--gold-light); font-weight: 600; }
-
-        /* ── Detail List ── */
-        .detail-list {
-            list-style: none; margin: 22px 0 26px;
-            background: var(--bg-inset); padding: 0;
-            border-left: 3px solid var(--gold-dim);
-        }
-        .detail-list li {
-            font-size: 14px; color: var(--text-sub);
-            padding: 11px 20px; display: flex; gap: 10px;
-        }
-        .detail-list li + li { border-top: 1px solid var(--border); }
-        .detail-list li::before { content: '—'; color: var(--gold-dim); flex-shrink: 0; }
-
-        /* ── Amazon Affiliate Button ── */
-        .affiliate-box { margin-top: 28px; text-align: center; }
-        .btn-amazon {
-            display: inline-flex; align-items: center; justify-content: center;
-            gap: 10px;
-            background: linear-gradient(135deg, #c9a84c 0%, #a87e2e 100%);
-            color: #080600; text-decoration: none;
-            font-family: 'Noto Serif JP', serif; font-weight: 600;
-            font-size: 13px; letter-spacing: 0.1em; padding: 15px 36px;
-            border-radius: 1px;
-            transition: filter 0.2s, transform 0.15s, box-shadow 0.2s;
-            box-shadow: 0 2px 12px rgba(201,168,76,0.18), inset 0 1px 0 rgba(255,255,255,0.18);
-            min-width: 260px;
-        }
-        .btn-amazon:hover {
-            filter: brightness(1.1); transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(201,168,76,0.28), inset 0 1px 0 rgba(255,255,255,0.18);
-        }
-        .btn-amazon .btn-icon { font-size: 15px; opacity: 0.9; }
-        .btn-amazon .btn-sub {
-            font-size: 10px; letter-spacing: 0.06em;
-            display: block; opacity: 0.75; font-weight: 400;
-        }
-        .btn-amazon-inner { text-align: left; }
-
-        /* ── Summary Box ── */
-        .summary-box {
-            background: var(--bg-card); border: 1px solid var(--border);
-            border-top: 2px solid var(--gold); padding: 38px 38px 34px; margin-top: 8px;
-        }
-        .cta-block {
-            margin-top: 30px; padding-top: 26px;
-            border-top: 1px solid var(--border); text-align: center;
-        }
-        .cta-lead { font-size: 14px; color: var(--text-sub); margin-bottom: 18px; line-height: 1.8; }
-        .btn-cta {
-            display: inline-block; background: transparent; color: var(--gold);
-            text-decoration: none; font-family: 'Playfair Display', serif;
-            font-size: 14px; letter-spacing: 0.1em; padding: 16px 36px;
-            border: 1px solid var(--gold-dim);
-            transition: background 0.25s, color 0.25s, border-color 0.25s; min-width: 300px;
-        }
-        .btn-cta:hover { background: var(--gold-dim); color: var(--text-bright); border-color: var(--gold-dim); }
-
-        /* ── Footer ── */
-        footer { text-align: center; padding: 44px 20px; border-top: 1px solid var(--border); }
-        .footer-rule {
-            display: flex; align-items: center; justify-content: center;
-            gap: 12px; margin-bottom: 20px;
-        }
-        .footer-rule::before, .footer-rule::after {
-            content: ''; display: block; width: 36px; height: 1px; background: var(--border-gold);
-        }
-        .footer-rule span { color: var(--text-muted); font-size: 8px; letter-spacing: 4px; }
-        footer p { font-size: 11px; color: var(--text-muted); letter-spacing: 0.12em; }
-
-        /* ── Responsive ── */
-        @media (max-width: 600px) {
-            .container { padding: 36px 16px 64px; }
-            .whiskey-card { padding: 28px 20px 24px; }
-            .summary-box { padding: 28px 20px 24px; }
-            .btn-amazon { min-width: 0; width: 100%; }
-            .btn-cta { min-width: 0; width: 100%; }
-            .card-number { right: 16px; }
-        }
-
-    </style>
+    <meta name="description" content="3,000円以下なのに高級バーで実際に提供される、コスパ最強ウイスキーを5本厳選。知ってると一目置かれる「安くて本物」の選び方。">
+    <title>価格破壊。3,000円以下なのに高級バーで出てくるウイスキー5選 | Whiskey Guide</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <div class="header-rule">
-            <span class="header-diamond">&#x25C6; &#x25C6; &#x25C6;</span>
-        </div>
-        <a href="index.html" class="site-title">Gentleman&#x2019;s Whiskey Guide</a>
-        <p class="site-tagline">For the Discerning Palate</p>
-        <div class="header-rule-bottom">
-            <span>&#x25C6; &#x25C6; &#x25C6;</span>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="site-logo">Whiskey Guide</a>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="article1.html">甘口</a>
+                <a href="article2.html">ハイボール</a>
+                <a href="article3.html">プレゼント</a>
+                <a href="article4.html">アイラ</a>
+                <a href="article7.html">コスパ</a>
+            </nav>
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="product.html">&#x96FB;&#x5B50;&#x66F8;&#x7C4D;&#xFF08;&#x5546;&#x54C1;&#xFF09;</a></li>
-        </ul>
-    </nav>
-
     <div class="container">
         <article>
+            <h1>価格破壊。3,000円以下なのに高級バーで出てくるウイスキー5選</h1>
 
-            <div class="article-label">
-                <span class="badge">Value Picks</span>
-                <span class="article-category">コスパ重視</span>
-            </div>
+<p>「ウイスキーは高いもの」という思い込み、捨ててください。</p>
 
-            <h1 class="article-title">
-                「安くてうまい」は本当にある。<br><span class="accent">1万円以下の神コスパウイスキー4選</span>
-            </h1>
+<p>実は、一流バーのバーテンダーたちが「コスパが異常」と口を揃える銘柄が存在します。</p>
+<p>価格は3,000円以下。なのに、グラスに注いだ瞬間、その香りはまぎれもなく「本物」です。</p>
 
-            <div class="lead">
-                <p>「ウイスキーは高い」——そう思っている人も多いのでは？確かに高い銘柄はありますが、実は1万円以下でも信じられないほど美味しいウイスキーが存在します。</p>
-                <p>今回は「コスパ最高」と断言できる4本を厳選して紹介します。</p>
-            </div>
+<p>今回は、そんな「知ってる人だけ得をする」ウイスキーを5本厳選しました。</p>
 
-            <p>ソムリエや蒸溜家が愛用するものも含まれています。「高いワインより安いウイスキーのほうが美味い」——そう感じる日が来るかもしれません。</p>
+<hr>
+<h2>1. バランタイン 12年（スコッチ）</h2>
+<strong>「12年熟成が3,000円以下」という奇跡</strong>
 
-            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+<p>スコッチウイスキーの王道・バランタイン。その12年熟成ボトルが、なんと2,500円前後で手に入ります。</p>
+<p>なめらかなバニラの甘みと、ほんのりスモーキーな後味。これを飲んで「普通のウイスキーとは違う」と初めて気づく人が続出しています。</p>
 
-            <div class="whiskey-card">
-                <span class="card-number">No. 1</span>
-                <h2 class="section-heading">グレンモーレンジィ オリジナル（スコッチ）</h2>
-                <p>4,000円前後でこの品質は反則的なコスパ。<strong>オレンジ・蜂蜜・バニラの三重奏</strong>が口の中で広がり、アルコールのピリピリ感がほとんどない。「初めて飲むシングルモルトにこれを選んで正解だった」という声が後を絶たない名品です。</p>
-                <ul class="detail-list">
-                    <li><span><strong>価格帯:</strong>&ensp;4,000円〜5,000円</span></li>
-                    <li><span><strong>コスパ評価:</strong>&ensp;★★★★★</span></li>
-                    <li><span><strong>おすすめの飲み方:</strong>&ensp;ストレート、またはトゥワイスアップ</span></li>
-                </ul>
-                <div class="affiliate-box">
-                    <a href="https://www.amazon.co.jp/s?k=%E3%82%B0%E3%83%AC%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B8%E3%82%A3%20%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
-                        <span class="btn-icon">&#x1F6D2;</span>
-                        <span class="btn-amazon-inner">
-                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
-                            <span class="btn-sub">グレンモーレンジィ オリジナル</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
+<ul><li><strong>おすすめの飲み方:</strong> ハイボール、またはロック</li>
+<li><strong>価格帯:</strong> 2,200円〜2,800円</li>
+</ul>
+<div class="product-card"><a href="https://www.amazon.co.jp/dp/B000VHL7AY?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener"><img src="images/products/ballantines-12-10fb1a46.webp" alt="バランタイン 12年 の代替商品画像" title="バランタイン 12年" loading="lazy" decoding="async" width="500" height="500"></a><a href="https://www.amazon.co.jp/dp/B000VHL7AY?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener" class="btn" title="バランタイン 12年をAmazonで見る">Amazonで詳細・購入はこちら</a></div>
 
-            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+<hr>
+<h2>2. グレンリベット 12年（シングルモルト）</h2>
+<strong>世界で最も売れているシングルモルトが、この価格</strong>
 
-            <div class="whiskey-card">
-                <span class="card-number">No. 2</span>
-                <h2 class="section-heading">ラフロイグ 10年（スコッチ・アイラ）</h2>
-                <p>「スモーキーなウイスキーの最高峰」と言われながら、5,000円以下で購入できる驚きのコスパ。<strong>海藻・ピート・独特のスモークが絡み合うクセのある香り</strong>は好き嫌いが分かれますが、一度ハマったら抜け出せないと言われる中毒性があります。「個性派ウイスキー」の入門として最適な一本。</p>
-                <ul class="detail-list">
-                    <li><span><strong>価格帯:</strong>&ensp;4,500円〜5,500円</span></li>
-                    <li><span><strong>コスパ評価:</strong>&ensp;★★★★☆（個性派部門1位）</span></li>
-                    <li><span><strong>おすすめの飲み方:</strong>&ensp;ストレート、または少量の加水</span></li>
-                </ul>
-                <div class="affiliate-box">
-                    <a href="https://www.amazon.co.jp/s?k=%E3%83%A9%E3%83%95%E3%83%AD%E3%82%A4%E3%82%B0%2010%E5%B9%B4%20%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%AB%E3%83%88&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
-                        <span class="btn-icon">&#x1F6D2;</span>
-                        <span class="btn-amazon-inner">
-                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
-                            <span class="btn-sub">ラフロイグ 10年 シングルモルト</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
+<p>シングルモルトとは、一つの蒸留所だけで作られた純粋なウイスキーのこと。</p>
+<p>グレンリベットは「スコッチの父」と呼ばれる蒸留所で、その12年物が3,000円前後で買えます。</p>
+<p>洋梨やパイナップルのようなフルーティな香りは、ウイスキーが苦手な人でも「これなら飲める」と驚く一本。</p>
 
-            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+<ul><li><strong>おすすめの飲み方:</strong> ストレートかトゥワイスアップ</li>
+<li><strong>価格帯:</strong> 2,800円〜3,200円</li>
+</ul>
+<div class="product-card"><a href="https://www.amazon.co.jp/dp/B004ZK2T0O?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener"><img src="images/products/glenlivet-12-c37fae6e.webp" alt="グレンリベット 12年 の代替商品画像" title="グレンリベット 12年" loading="lazy" decoding="async" width="500" height="500"></a><a href="https://www.amazon.co.jp/dp/B004ZK2T0O?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener" class="btn" title="グレンリベット 12年をAmazonで見る">Amazonで詳細・購入はこちら</a></div>
 
-            <div class="whiskey-card">
-                <span class="card-number">No. 3</span>
-                <h2 class="section-heading">デュワーズ 12年（スコッチ）</h2>
-                <p>「ダブル熟成（ダブルエイジド）」製法で作られたブレンデッドウイスキー。<strong>なめらかな口当たりと、甘くクリーミーな余韻</strong>が特徴で、3,500円前後という価格が信じられないほど完成度が高い。「コスパ最高のスコッチ」として専門家にも高評価です。</p>
-                <ul class="detail-list">
-                    <li><span><strong>価格帯:</strong>&ensp;3,000円〜4,000円</span></li>
-                    <li><span><strong>コスパ評価:</strong>&ensp;★★★★★（コスパ部門No.1）</span></li>
-                    <li><span><strong>おすすめの飲み方:</strong>&ensp;ハイボール、またはロック</span></li>
-                </ul>
-                <div class="affiliate-box">
-                    <a href="https://www.amazon.co.jp/s?k=%E3%83%87%E3%83%A5%E3%83%AF%E3%83%BC%E3%82%BA%2012%E5%B9%B4%20%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
-                        <span class="btn-icon">&#x1F6D2;</span>
-                        <span class="btn-amazon-inner">
-                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
-                            <span class="btn-sub">デュワーズ 12年 ウイスキー</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
+<hr>
+<h2>3. ジョニーウォーカー ブラックラベル 12年（スコッチ）</h2>
+<strong>「ジョニ黒」は、なぜ世界中のバーに置いてあるのか</strong>
 
-            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+<p>「ジョニ赤は知ってるけど、黒は飲んだことない」という方へ。</p>
+<p>ジョニーウォーカーの黒ラベルは、赤とは別次元の完成度です。ドライフルーツとスモークが複雑に絡み合い、「これが2,500円？」と思わず値札を二度見するレベル。</p>
+<p>世界中のバーに置いてある理由が、一口で分かります。</p>
 
-            <div class="whiskey-card">
-                <span class="card-number">No. 4</span>
-                <h2 class="section-heading">アードモア トラディショナル カスク（スコッチ）</h2>
-                <p>ハイランド産の<strong>ライトスモーキー&amp;ハニー系シングルモルト</strong>。「ピートが効いているけど重くない」という絶妙なバランスで、スモーキー系ウイスキー入門に最適。4,000円前後でこの複雑さが楽しめるのは、知る人ぞ知るコスパの秘密です。</p>
-                <ul class="detail-list">
-                    <li><span><strong>価格帯:</strong>&ensp;3,500円〜5,000円</span></li>
-                    <li><span><strong>コスパ評価:</strong>&ensp;★★★★☆（隠れた名品）</span></li>
-                    <li><span><strong>おすすめの飲み方:</strong>&ensp;ロック、またはハイボール</span></li>
-                </ul>
-                <div class="affiliate-box">
-                    <a href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%BC%E3%83%89%E3%83%A2%E3%82%A2%20%E3%83%88%E3%83%A9%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%20%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=keny0823-22" class="btn-amazon" target="_blank" rel="noopener noreferrer sponsored">
-                        <span class="btn-icon">&#x1F6D2;</span>
-                        <span class="btn-amazon-inner">
-                            Amazon&#x3067;&#x4FA1;&#x683C;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;
-                            <span class="btn-sub">アードモア トラディショナル ウイスキー</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
+<ul><li><strong>おすすめの飲み方:</strong> ロック、またはストレート</li>
+<li><strong>価格帯:</strong> 2,300円〜2,800円</li>
+</ul>
+<div class="product-card"><a href="https://www.amazon.co.jp/dp/B000VHL7BK?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener"><img src="images/products/johnnie-walker-black-label-81efce5e.webp" alt="ジョニーウォーカー ブラックラベル の代替商品画像" title="ジョニーウォーカー ブラックラベル" loading="lazy" decoding="async" width="500" height="500"></a><a href="https://www.amazon.co.jp/dp/B000VHL7BK?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener" class="btn" title="ジョニーウォーカー ブラックラベルをAmazonで見る">Amazonで詳細・購入はこちら</a></div>
 
-            <div class="ornament"><span class="ornament-inner">&#x2726; &#x2726; &#x2726;</span></div>
+<hr>
+<h2>4. サントリー オールド（ジャパニーズ）</h2>
+<strong>日本人が忘れかけている「昭和の名酒」が再評価中</strong>
 
-            <!-- &#x307E;&#x3068;&#x3081; -->
-            <div class="summary-box">
-                <h2 class="section-heading">まとめ：コスパとは「価格以上の感動」があること</h2>
-                <p>今回紹介した4本は、いずれも「値段を忘れて楽しめる」ウイスキーです。高価なボトルに手が出ない時期でも、こういう銘柄を知っているだけで、ウイスキーライフがぐっと豊かになります。</p>
-                <div class="cta-block">
-                    <p class="cta-lead"><strong>&#x3055;&#x3089;&#x306B;&#x8A73;&#x3057;&#x3044;&#x300C;&#x5927;&#x4EBA;&#x306E;&#x98F2;&#x307F;&#x65B9;&#x300D;&#x3084;&#x300C;Bar&#x3067;&#x306E;&#x632F;&#x308B;&#x821E;&#x3044;&#x300D;&#x3092;&#x77E5;&#x308A;&#x305F;&#x3044;&#x65B9;&#x306F;&#x3001;<br>&#x3053;&#x3061;&#x3089;&#x306E;&#x30AC;&#x30A4;&#x30C9;&#x3082;&#x304A;&#x3059;&#x3059;&#x3081;&#x3067;&#x3059;&#x3002;</strong></p>
-                    <a href="./product.html" class="btn-cta">&#x5927;&#x4EBA;&#x306E;&#x30A6;&#x30A4;&#x30B9;&#x30AD;&#x30FC;&#x5165;&#x9580;&#x66F8;&#xFF08;&#x516C;&#x5F0F;&#x30AC;&#x30A4;&#x30C9;&#xFF09;&#x3092;&#x898B;&#x308B; &nbsp;&#x203A;</a>
-                </div>
-            </div>
+<p>かつて「だるまさん」と呼ばれ、日本中のサラリーマンに愛されたウイスキー。</p>
+<p>一時は時代遅れと言われましたが、今や若い世代のバーテンダーが「実はすごい」と再発見しています。</p>
+<p>シェリー樽由来のレーズンと蜂蜜の香りは、他の追随を許さない独特の個性。2,000円以下で買えるのに、この複雑さは反則です。</p>
 
+<ul><li><strong>おすすめの飲み方:</strong> ハイボール（水割りも◎）</li>
+<li><strong>価格帯:</strong> 1,500円〜2,000円</li>
+</ul>
+<div class="product-card"><a href="https://www.amazon.co.jp/dp/B0015BPBVY?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener"><img src="images/products/suntory-old-41fbef5c.webp" alt="サントリー オールド の代替商品画像" title="サントリー オールド" loading="lazy" decoding="async" width="500" height="500"></a><a href="https://www.amazon.co.jp/dp/B0015BPBVY?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener" class="btn" title="サントリー オールドをAmazonで見る">Amazonで詳細・購入はこちら</a></div>
+
+<hr>
+<h2>5. デュワーズ 12年（スコッチ）</h2>
+<strong>バーテンダーが「自宅でも飲む」と言う、業界人御用達の一本</strong>
+
+<p>バーテンダーが「仕事でもプライベートでも飲む」と公言するほどの完成度。</p>
+<p>蜂蜜とバニラの甘みに、ほのかなシトラスが重なる、飽きのこない味わいです。</p>
+<p>日本ではまだ知名度が低いため割安ですが、海外では高評価が定着しています。「知る人ぞ知る」を体験したい方に。</p>
+
+<ul><li><strong>おすすめの飲み方:</strong> ハイボール、またはロック</li>
+<li><strong>価格帯:</strong> 2,500円〜3,000円</li>
+</ul>
+<div class="product-card"><a href="https://www.amazon.co.jp/dp/B000VHL7C4?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener"><img src="images/products/dewars-12-50fb987d.webp" alt="デュワーズ 12年 の代替商品画像" title="デュワーズ 12年" loading="lazy" decoding="async" width="500" height="500"></a><a href="https://www.amazon.co.jp/dp/B000VHL7C4?tag=keny0823-22" target="_blank" rel="nofollow sponsored noopener" class="btn" title="デュワーズ 12年をAmazonで見る">Amazonで詳細・購入はこちら</a></div>
+
+<hr>
+<h2>まとめ：「値段で選ぶ時代」は終わった</h2>
+
+<p>ウイスキーの本当の価値は、価格ではありません。</p>
+<p>今回紹介した5本は、どれも3,000円以下。しかし一流バーのバーテンダーが認める本物の味です。</p>
+
+<p>次に友人を家に招いたとき、この中の一本をさりげなく出してみてください。</p>
+<p>「え、これ家にあるの？」と、確実に一目置かれます。</p>
         </article>
     </div>
 
-    <footer>
-        <div class="footer-rule"><span>&#x25C6;</span></div>
-        <p>&copy; 2026 Gentleman&#x2019;s Whiskey Guide. All rights reserved.</p>
-    </footer>
-
+    <div class="footer">
+        <p>&copy; 2026 Whiskey Guide. All rights reserved.</p>
+    </div>
 </body>
 </html>
