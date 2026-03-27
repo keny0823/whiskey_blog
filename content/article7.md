@@ -8,6 +8,10 @@ Description: 3,000円以下なのに高級バーで実際に提供される、�
 
 今回は、そんな「知ってる人だけ得をする」ウイスキーを5本厳選しました。
 
+<div style="text-align: center; margin: 20px 0;">
+    <img src="images/talisker_pepper.png" alt="スパイシーなウイスキーハイボールのイメージ" style="max-width: 100%; height: auto; border-radius: 8px;">
+</div>
+
 ---
 
 ## 1. バランタイン 12年（スコッチ）
@@ -116,4 +120,3 @@ Description: 3,000円以下なのに高級バーで実際に提供される、�
 
 次に友人を家に招いたとき、この中の一本をさりげなく出してみてください。
 「え、これ家にあるの？」と、確実に一目置かれます。
-

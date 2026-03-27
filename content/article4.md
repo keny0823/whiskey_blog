@@ -8,6 +8,10 @@ Description: 初心者が避けて通れない「煙くさい」ウイスキー�
 
 この記事では、アイラ・モルトの中でも特に際立った個性を持つ3つの銘柄を紹介します。
 
+<div style="text-align: center; margin: 20px 0;">
+    <img src="images/islay_whisky.png" alt="アイラウイスキーのテイスティングイメージ" style="max-width: 100%; height: auto; border-radius: 8px;">
+</div>
+
 ---
 
 ## 1. アードベッグ 10年 (Ardbeg)

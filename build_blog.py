@@ -6,6 +6,7 @@ import os
 import re
 import shutil
 import unicodedata
+import urllib.parse
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -74,6 +75,16 @@ PRODUCT_META = {
     "B000VHL7BK": {"name": "ジョニーウォーカー ブラックラベル", "slug": "johnnie-walker-black-label"},
     "B0015BPBVY": {"name": "サントリー オールド", "slug": "suntory-old"},
     "B000VHL7C4": {"name": "デュワーズ 12年", "slug": "dewars-12"},
+}
+
+UNAVAILABLE_ASINS = {
+    "B000VHL7AY",
+    "B000VHL7BK",
+    "B000VHL7C4",
+    "B0015BPBVY",
+    "B001HUA0P2",
+    "B002VZY7KW",
+    "B004ZK2T0O",
 }
 
 FONT_PATH = Path(r"C:\Windows\Fonts\NotoSansJP-VF.ttf")
@@ -606,10 +617,16 @@ def rewrite_image_tags(html_text, asset_registry):
 
 
 def make_amazon_widget(asin, asset_registry):
-    amazon_url = f"https://www.amazon.co.jp/dp/{asin}?tag={AMAZON_TAG}"
     product_image = asset_registry["products"].get(asin)
     product_meta = PRODUCT_META.get(asin, {"name": f"Amazon商品 {asin}"})
     product_name = product_meta["name"]
+    if asin in UNAVAILABLE_ASINS:
+        query = urllib.parse.quote_plus(f"{product_name} ウイスキー")
+        amazon_url = f"https://www.amazon.co.jp/s?k={query}&tag={AMAZON_TAG}"
+        button_label = "Amazonで候補商品を見る"
+    else:
+        amazon_url = f"https://www.amazon.co.jp/dp/{asin}?tag={AMAZON_TAG}"
+        button_label = "Amazonで詳細・購入はこちら"
 
     if product_image:
         return (
@@ -618,7 +635,7 @@ def make_amazon_widget(asin, asset_registry):
             f'<img src="{product_image["src"]}" alt="{product_image["alt"]}" title="{product_name}" '
             f'loading="lazy" decoding="async" width="{product_image["width"]}" height="{product_image["height"]}"></a>'
             f'<a href="{amazon_url}" target="_blank" rel="nofollow sponsored noopener" class="btn" '
-            f'title="{product_name}をAmazonで見る">Amazonで詳細・購入はこちら</a>'
+            f'title="{product_name}をAmazonで見る">{button_label}</a>'
             f'</div>'
         )
 
@@ -630,7 +647,7 @@ def make_amazon_widget(asin, asset_registry):
         f'style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" '
         f'frameborder="0" loading="lazy" title="{product_name}のAmazon商品カード"></iframe>'
         f'<a href="{amazon_url}" target="_blank" rel="nofollow sponsored noopener" class="btn" '
-        f'title="{product_name}をAmazonで見る">Amazonで詳細・購入はこちら</a>'
+        f'title="{product_name}をAmazonで見る">{button_label}</a>'
         f'</div>'
     )
 
