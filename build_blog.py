@@ -90,7 +90,7 @@ UNAVAILABLE_ASINS = {
 FONT_PATH = Path(r"C:\Windows\Fonts\NotoSansJP-VF.ttf")
 
 CSS_CONTENT = """
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap');
 
 :root {
     --bg: #0a0a0f;
@@ -139,10 +139,11 @@ body::before {
     width: 100%;
     height: 100%;
     background:
-        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(200, 151, 62, 0.04) 0%, transparent 60%),
-        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(120, 80, 20, 0.03) 0%, transparent 50%);
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(200, 130, 40, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(140, 80, 20, 0.06) 0%, transparent 50%);
+    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.85);
     pointer-events: none;
-    z-index: 0;
+    z-index: 999;
 }
 
 /* ===== HEADER ===== */
@@ -228,7 +229,7 @@ article {
     padding: 0;
 }
 article h1 {
-    font-family: 'Cormorant Garamond', 'Noto Sans JP', serif;
+    font-family: 'Cormorant Garamond', 'Noto Serif JP', serif;
     color: var(--text-bright);
     font-size: 36px;
     font-weight: 700;
@@ -237,7 +238,7 @@ article h1 {
     letter-spacing: 0.5px;
 }
 article h2 {
-    font-family: 'Cormorant Garamond', 'Noto Sans JP', serif;
+    font-family: 'Cormorant Garamond', 'Noto Serif JP', serif;
     color: var(--amber-light);
     font-size: 24px;
     font-weight: 600;
@@ -258,6 +259,7 @@ article h2::after {
     background: linear-gradient(90deg, var(--amber), transparent);
 }
 article h3 {
+    font-family: 'Cormorant Garamond', 'Noto Serif JP', serif;
     color: var(--text-bright);
     font-size: 18px;
     font-weight: 500;
@@ -439,7 +441,7 @@ article img {
 }
 .article-card:hover::before { opacity: 1; }
 .article-card h3 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif JP', serif;
     color: var(--text-bright);
     font-size: 16px;
     font-weight: 500;
@@ -577,7 +579,7 @@ TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
     <title>{title} | Whiskey Guide</title>
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="style.css?v=1.2">
 </head>
 <body>
     <header class="site-header">
